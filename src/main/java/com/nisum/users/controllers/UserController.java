@@ -27,7 +27,7 @@ public class UserController {
         return userService.createUser(request);
     }
 
-    @GetMapping(value ="/login")
+    @PostMapping(value ="/login")
     public UserResponseDto login(@RequestBody UserRequestDto request) throws ValidationException {
         return userService.login(request);
     }
