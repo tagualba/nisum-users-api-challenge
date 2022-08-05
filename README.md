@@ -5,7 +5,7 @@ The application works with an H2 in memory that it raises when starting the appl
 So with running it, it would already be working, it is not necessary to generate any database, **just have java and maven installed.**
 
 
-Once running, you can [**check your endpoints in swagger default url**](https://pages.github.com/)
+Once running, you can [**check your endpoints in swagger default url**](http://localhost:8080/swagger-ui/index.html#/)
 
 In the **application.yml** you can configure the following properties:
 
