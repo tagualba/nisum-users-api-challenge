@@ -43,7 +43,7 @@ public class JwtUtil {
         }
     }
 
-    public String getUserNameFromToken(String token){
+    public String getEmailUserByToken(String token){
         try {
             return Jwts.parser().setSigningKey(secret).parseClaimsJws(token).getBody().getSubject();
         }catch (Exception e) {
