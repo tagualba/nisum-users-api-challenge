@@ -4,6 +4,8 @@ The application works with an H2 in memory that it raises when starting the appl
 
 So with running it, it would already be working, it is not necessary to generate any database, **just have java and maven installed.**
 
+Before starting look at [**the diagrams in MIRO.**](https://miro.com/app/board/uXjVOgrOq8k=/?share_link_id=252348853638)
+
 
 Once running, you can [**check your endpoints in swagger default url**](http://localhost:8080/swagger-ui/index.html#/)
 
