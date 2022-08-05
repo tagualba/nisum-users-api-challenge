@@ -5,10 +5,10 @@ import org.springframework.http.HttpStatus;
 public enum ErrorCode {
 
     INVALID_DATA(1001, "Invalid data input", HttpStatus.BAD_REQUEST),
-    REPEAT_EMAIL(1003, "Token Expired ", HttpStatus.BAD_REQUEST),
-    INVALID_TOKEN(1002, "Invalid Token Access", HttpStatus.UNAUTHORIZED),
-    EXPIRED_TOKEN(1003, "Token Expired ", HttpStatus.UNAUTHORIZED),
-    COMBINATION_FAIL(1004, "Invalid Combination", HttpStatus.NOT_FOUND);
+    REPEAT_EMAIL(1002, "Repeat Email", HttpStatus.BAD_REQUEST),
+    INVALID_TOKEN(1003, "Invalid Token Access", HttpStatus.UNAUTHORIZED),
+    EXPIRED_TOKEN(1004, "Token Expired ", HttpStatus.UNAUTHORIZED),
+    COMBINATION_FAIL(1005, "Invalid Combination", HttpStatus.NOT_FOUND);
 
     private final Integer code;
 
