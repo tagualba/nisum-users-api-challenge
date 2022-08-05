@@ -74,7 +74,7 @@ public class UserService {
     public UserResponseDto getUserByToken(String token) throws ValidationException {
         System.out.println(String.format("Event: %s","UserService.getUserByToken"));
 
-        String email = jwtUtil.getUserNameFromToken(token);
+        String email = jwtUtil.getEmailUserByToken(token);
         Optional<User> user = userRepository.findByEmail(email);
         if(user.isPresent()){
             return userTranslator.toResponse(user.get());
