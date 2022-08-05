@@ -1,4 +1,4 @@
-# nisum-users-api-challenge
+# Nisum Users Upi Challenge
 
 The application works with an H2 in memory that it raises when starting the application from the Hibernate model.
 
